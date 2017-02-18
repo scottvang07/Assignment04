@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shirts, Suits, Shoes</title>
+    <style media="screen">
+        * {
+          margin: 0;
+          padding: 0;
+        }
+        .container {
+          height: 100%;
+          display: flex;
+          margin: 0 auto;
+          max-width: 1200px;
+          background-color: none;
+          flex-direction: column;
+        }
+        div.main-header {
+          height: 90px;
+          width: 100%;
+          position: relative;
+        }
+        div.header-content {
+          height: 70px;
+          width: 20%;
+          top: 10%;
+          left: 39%;
+          position: absolute;
+          border: solid 2px;
+        }
+        div.main-header img {
+          margin-top: 70px;
+          width: 5%;
+        }
+        header.header-info h1 {
+          padding-top: 16px;
+          text-align: center;
+          text-transform: uppercase;
+          font-size: 30px;
+          font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+        }
+        div.picture-content {
+          height: 600px;
+          flex:1;
+          background-color: #CCC;
+        }
+        div.picture-content img {
+          height: 100%;
+          width: 100%;
+        }
+        div.product-content {
+          height: 800px;
+          flex: 1;
+          margin-top: 30px;
+        }
+        div.product-content h1 {
+          text-align: center;
+          font-size: 30px;
+          margin-bottom: 30px;
+          font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+        }
+        div.main-navigation {
+          height: 80px;
+          width: 100%;
+          margin-top: 10px;
+          margin-bottom: 15px;
+          position: relative;
+          border-top: solid thin;
+          border-bottom: solid thin;
+        }
+        div.navigation-tool-bar {
+          height: 50px;
+          width: 70%;
+          left: 15%;
+          margin-top: 15px;
+          position: absolute;
+        }
+        div.navigation-tool-bar ul {
+          list-style: none;
+        }
+        div.navigation-tool-bar li {
+          float: left;
+        }
+        div.navigation-tool-bar a {
+          text-decoration: none;
+          color: black;
+          font-size: 20px;
+          display: block;
+          padding: 16px;
+          text-align: center;
+          margin-left: 100px;
+          font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+        }
+
+        div.main-nav-bar h1 {
+          text-align: center;
+          font-size: 20px;
+        }
+        aside.bottom-left {
+          width: 29%;
+          height: 90%;
+          float: left;
+        }
+        aside.bottom-left h1 {
+          margin-top: 50px;
+        }
+        div.bottom-middle {
+          width: 29%;
+          height: 68%;
+          left: 37.4%;
+          position: absolute;
+        }
+        aside.bottom-right {
+          width: 29%;
+          height: 90%;
+          float: right;
+        }
+        aside.bottom-left h1 {
+          margin-top: 50px;
+          font-size: 30px;
+          font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+        }
+        aside.bottom-left img {
+          height: 60%;
+          width: 100%;
+          border-radius: 20px;
+        }
+        div.bottom-middle h1 {
+          margin-top: 50px;
+          font-size: 30px;
+          text-align: center;
+          font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+        }
+        div.bottom-middle img {
+          height: 96%;
+          width: 90%;
+          border-radius: 20px;
+        }
+        aside.bottom-right h1 {
+          margin-top: 50px;
+          font-size: 30px;
+          font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+        }
+        aside.bottom-right img {
+          height: 60%;
+          width: 100%;
+          border-radius: 20px;
+        }
+        div.main-footer {
+          height: 100px;
+          width: 100%;
+          position: relative;
+          border-top: solid thin;
+        }
+        div.footer-content {
+          height: 70%;
+          width: 70%;
+          left: 5%;
+          position: absolute;
+          margin-top: 15px;
+        }
+        footer.footer-info p {
+          padding: none;
+          font-size: 18px;
+          font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+        }
+
+    </style>
+
+  </head>
+
+  <body>
+    <div class="container">
+        <div class="main-header">
+          <img src="./img/store-logo.png" alt="store-logo">
+          <div class="header-content">
+            <header class="header-info">
+              <h1>Elevate</h1>
+            </header>
+          </div>
+        </div>
+          <div class="main-navigation">
+            <div class="navigation-tool-bar">
+              <ul>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Shirts</a></li>
+                <li><a href="#">Suits</a></li>
+                <li><a href="#">Shoes</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="picture-content">
+            <img src="./img/home-page-photo.jpg" alt="homepage-photo">
+          </div>
+          <div class="">
+
+          <div class="product-content">
+            <h1 class="product-title">Product Categories</h1>
+            <aside class="bottom-left">
+                  <h1>Shirts</h1>
+                  <img class="shirt-cover" src="./img/shirt-cover.jpg" alt="shirt-cover">
+
+            </aside>
+            <div class="bottom-middle">
+                  <h1>Suits</h1>
+                  <img class="suit-cover" src="./img/suit-cover.jpg" alt="suit-cover">
+
+            </div>
+            <aside class="bottom-right">
+                  <h1>Shoes</h1>
+                  <img class="shoe-cover" src="./img/shoe-cover2.jpg" alt="shoe-cover">
+
+            </aside>
+          </div>
+          <div class="main-footer">
+            <div class="footer-content">
+              <footer class="footer-info">
+                <p>&copy SSS 2017</p>
+                <p>Designed by Scott & Ronnie</p>
+              </footer>
+            </div>
+          </div>
+        </div>
+    </div>
+  </body>
+</html>
