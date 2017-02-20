@@ -35,6 +35,25 @@ header.header-info h1 {
   font-size: 30px;
   font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
 }
+aside.about-us-header {
+  height: 50px;
+  width: 15%;
+  float: right;
+  margin-top: 4%;
+}
+aside.about-us-header li {
+  float: left;
+  padding: 15px;
+}
+aside.about-us-header ul {
+  list-style: none;
+}
+aside.about-us-header a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+}
 div.picture-content {
   height: 600px;
   flex:1;
