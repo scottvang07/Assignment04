@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<style media="screen">
+      div.main-content {
+        height: 600px;
+        width: 100%;
+      }
+      div.main-header-login {
+        margin-top: 40px;
+      }
+      aside.login-forum-breadcrumb {
+        width: 100%;
+      }
+      aside.login-forum-breadcrumb ul {
+        list-style: none;
+      }
+      aside.login-forum-breadcrumb li {
+        float: left;
+      }
+      aside.login-forum-breadcrumb li a {
+        margin-top: 5px;
+      }
+      li.home-tag a {
+        color: gray;
+        font-style: italic;
+        text-decoration: underline;
+      }
+
+      li.account-tag a {
+        margin-left: 8px;
+        font-size: 15px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: black;
+      }
+      div.main-header-login h1 {
+        font-size: 40px;
+        font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+      }
+      div.main-header-login h2 {
+        margin-top: 35px;
+        font-size: 30px;
+        font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+      }
+      section.login-forum {
+        height: 200px;
+        width: 100%;
+        margin-top: 30px;
+      }
+      label.username-label {
+        display: block;
+        font-size: 20px;
+        font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+      }
+      input.username-textbox {
+        width: 70%;
+        height: 50px;
+        font-size: 20px;
+        background-color: #f2f2f2;
+        border: none;
+      }
+      label.password-label {
+        display: block;
+        font-size: 20px;
+        font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+      }
+      input.password-textbox {
+        width: 70%;
+        height: 50px;
+        font-size: 20px;
+        background-color: #f2f2f2;
+        border: none;
+        margin-bottom: 30px;
+      }
+      button.login-button {
+        padding: 15px 30px;
+        font-size: 20px;
+        border: solid 2px;
+        background-color: white;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+      }
+      button.login-button:hover {
+        background-color: #f2f2f2;
+        color:black;
+      }
+
+
+
+</style>
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+  </head>
+  <body>
+    <div class="container">
+        <div class="main-header">
+          <img src="../img/store-logo.png" alt="store-logo">
+          <div class="header-content">
+            <header class="header-info">
+              <h1>Elevate</h1>
+            </header>
+          </div>
+        </div>
+          <div class="main-navigation">
+            <div class="navigation-tool-bar">
+              <ul>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Shirts</a></li>
+                <li><a href="#">Suits</a></li>
+                <li><a href="#">Shoes</a></li>
+              </ul>
+            </div>
+          </div>
+          <aside class="login-forum-breadcrumb">
+            <ul>
+              <li class="home-tag"><a href="../index.html">Home / </a></li>
+              <li class="account-tag"><a href="#"> My Account </a></li>
+            </ul>
+          </aside>
+          <div class="main-content">
+            <div class="main-header-login">
+              <h1>My Account</h1>
+              <h2>Login</h2>
+
+              <section class="login-forum">
+                <div class="login-forum-username">
+                  <label class="username-label" for="username">Username or email address:</label>
+                  <input class="username-textbox" type="login-input" type="text" id="username" maxlength="100">
+                <div class="login-forum-password">
+                  <label class = "password-label" for="password">Password:</label>
+                  <input class = "password-textbox" type="password" type="password" id="password" maxlength="30">
+                </div>
+                <div class="login-forum-button">
+                  <button onclick= "login()" id="btn-login" class="login-button">Login</button>
+                </div>
+
+              </section>
+
+              </div>
+            </div>
+            <div class="main-footer">
+              <div class="footer-content">
+                <footer class="footer-info">
+                  <p>&copy EVELVATE 2017</p>
+                  <p>Designed by Scott</p>
+                </footer>
+              </div>
+            </div>
+          </div>
+
+          <script>
+        function login() {
+
+
+            let username = document.getElementById('username').value;
+            let password = document.getElementById('password').value;
+            let errorContainer = document.getElementById('error-container');
+            let errorText = document.getElementById('error-text');
+
+            if(username == 'evelate' && password == 'evelate') {
+                location.href = '../index.html';
+            } else {
+                errorContainer.style.display = 'block';
+                errorText.style.display = 'block';
+                errorText.innerHTML = 'Try again.';
+
+               let handle = setInterval(() => {
+                    errorContainer.style.display = 'none';
+                    clearInterval(handle);
+                },2000);
+            }
+
+            //alert(password);
+        }
+
+          document.getElementById("username")
+          document.getElementById("password")
+          .addEventListener("keyup", function(event) {
+          event.preventDefault();
+          if (event.keyCode == 13) {
+          document.getElementById("btn-login").click();
+    }
+});
+
+
+
+    </script>
+
+  </body>
+</html>
