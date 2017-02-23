@@ -35,6 +35,11 @@ header.header-info h1 {
   font-size: 30px;
   font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
 }
+header.header-info a {
+  text-decoration: none;
+  color: black;
+  font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+}
 aside.about-us-header {
   height: 50px;
   width: 15%;
