@@ -42,7 +42,7 @@ header.header-info a {
 }
 aside.about-us-header {
   height: 50px;
-  width: 15%;
+  width: 23%;
   float: right;
   margin-top: 4%;
 }
@@ -182,4 +182,90 @@ footer.footer-info p {
   padding: none;
   font-size: 18px;
   font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+}
+
+}
+
+div.main-content {
+  height: 600px;
+  width: 100%;
+}
+div.main-header-login {
+  margin-top: 40px;
+}
+aside.login-forum-breadcrumb {
+  width: 100%;
+}
+aside.login-forum-breadcrumb ul {
+  list-style: none;
+}
+aside.login-forum-breadcrumb li {
+  float: left;
+}
+aside.login-forum-breadcrumb li a {
+  margin-top: 5px;
+}
+li.home-tag a {
+  color: gray;
+  font-style: italic;
+  text-decoration: underline;
+}
+li.account-tag a {
+  margin-left: 8px;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+div.main-header-login h1 {
+  font-size: 40px;
+  font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+}
+div.main-header-login h2 {
+  margin-top: 35px;
+  font-size: 30px;
+  font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+}
+section.login-forum {
+  height: 300px;
+  width: 100%;
+  margin-top: 30px;
+}
+label.username-label {
+  display: block;
+  font-size: 20px;
+  font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+}
+input.username-textbox {
+  width: 70%;
+  height: 50px;
+  font-size: 20px;
+  background-color: #f2f2f2;
+  border: none;
+}
+label.password-label {
+  display: block;
+  font-size: 20px;
+  font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+}
+input.password-textbox {
+  width: 70%;
+  height: 50px;
+  font-size: 20px;
+  background-color: #f2f2f2;
+  border: none;
+  margin-bottom: 30px;
+}
+button.login-button {
+  padding: 15px 30px;
+  font-size: 20px;
+  border: solid 2px;
+  background-color: white;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+}
+button.login-button:hover {
+  background-color: #A9A9A9;
+  color:black;
 }
