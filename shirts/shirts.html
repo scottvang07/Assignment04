@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<style media="screen">
+    aside.bottom-left a {
+      text-decoration: none;
+      color: black;
+      transition-duration: 0.7s;
+    }
+    img.shirt-cover:hover {
+      background-color: #CCC;
+    }
+    div.bottom-middle a {
+      text-decoration: none;
+      color: black;
+    }
+    aside.bottom-right a {
+      text-decoration: none;
+      color: black;
+    }
+
+/*shirt container*/
+.product-container{
+  width: 100%;
+  height: 700px;
+  position: relative;
+
+}
+
+.shirt{
+background-color: blue;
+height: 700px;
+width: 70%;
+float:right;
+}
+
+/*menu*/
+.product-sidebar-link{
+  background-color: green;
+  height: 100%;
+  width: 20%;
+  position: absolute;
+  }
+div.product-sidebar-link ul {
+  list-style-type:none;
+  text-align: center;
+  }
+div.product-sidebar-link li {
+  margin: 10px;
+  width: 90%;
+  }
+div.product-sidebar-link a {
+  text-decoration:none;
+  padding:10px 15px;
+  border: 1px solid black;
+  display:block;
+}
+.shirt-gallery img{
+width: 65%;
+height: 15%;
+}
+div.shirt-gallery li{
+  display: table-cell;
+  padding: 10px;
+
+}
+div.shirt-gallery ul{
+  list-style: none;
+
+}
+</style>
+
+  <head>
+    <title>ELEVATE</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+  </head>
+
+  <body>
+    <div class="container">
+        <div class="main-header">
+          <img src="../img/store-logo.png" alt="store-logo">
+          <div class="header-content">
+            <header class="header-info">
+              <h1><a href="./index.html">Elevate</a></h1>
+            </header>
+          </div>
+          <aside class="about-us-header">
+            <ul>
+              <li class="about-us-tag"><a href="#">About Us </a></li>
+              <li class="login-tag"><a href="../login/login.html">Login</a></li>
+            </ul>
+          </aside>
+        </div>
+          <div class="main-navigation">
+            <div class="navigation-tool-bar">
+              <ul>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Shirts</a></li>
+                <li><a href="#">Suits</a></li>
+                <li><a href="#">Shoes</a></li>
+              </ul>
+            </div>
+          </div>
+          <aside class="login-forum-breadcrumb">
+            <ul>
+              <li class="home-tag"><a href="../index.html">Home / </a></li>
+              <li class="account-tag"><a href="#"> My Account </a></li>
+            </ul>
+          </aside>
+          <div class="product-container">
+
+            <div class="product-sidebar-link">
+              <ul>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Shirts</a></li>
+                <li><a href="#">Suits</a></li>
+                <li><a href="#">Shoes</a></li>
+
+              </ul>
+            </div>
+              <div class="shirt">
+                <div class="shirt-gallery">
+                  <ul>
+                    <li><a href="#"><img src="../img/shirt-cover.jpg" alt="shirt-cover"></a></li>
+                    <li><a href="#"><img src="../img/shirt-cover.jpg" alt="shirt-cover"></a></li>
+                    <li><a href="#"><img src="../img/shirt-cover.jpg" alt="shirt-cover"></a></li>
+                  </ul>
+                  <ul>
+                    <li><a href="#"><img src="../img/shirt-cover.jpg" alt="shirt-cover"></a></li>
+                    <li><a href="#"><img src="../img/shirt-cover.jpg" alt="shirt-cover"></a></li>
+                    <li><a href="#"><img src="../img/shirt-cover.jpg" alt="shirt-cover"></a></li>
+                  </ul>
+                  <ul>
+                    <li><a href="#"><img src="../img/shirt-cover.jpg" alt="shirt-cover"></a></li>
+                    <li><a href="#"><img src="../img/shirt-cover.jpg" alt="shirt-cover"></a></li>
+                    <li><a href="#"><img src="../img/shirt-cover.jpg" alt="shirt-cover"></a></li>
+                  </ul>
+
+                </div>
+                <!--<table>
+                        <tr>
+                          <td><a href="#"><img class="shirt-gallery" src="../img/shirt-cover.jpg" alt="shirt-cover"></a></td>
+                          <td><a href="#"><img class="shirt-gallery" src="../img/shirt-cover.jpg" alt="shirt-cover"></a></td>
+                          <td><a href="#"><img class="shirt-gallery" src="../img/shirt-cover.jpg" alt="shirt-cover"></a></td>
+                        </tr>
+
+                        <tr>
+                          <td><a href="#"><img class="shirt-gallery" src="../img/shirt-cover.jpg" alt="shirt-cover"></a></td>
+                          <td><a href="#"><img class="shirt-gallery" src="../img/shirt-cover.jpg" alt="shirt-cover"></a></td>
+                          <td><a href="#"><img class="shirt-gallery" src="../img/shirt-cover.jpg" alt="shirt-cover"></a></td>
+                        </tr>
+                        <tr>
+                          <td><a href="#"><img class="shirt-gallery" src="../img/shirt-cover.jpg" alt="shirt-cover"></a></td>
+                          <td><a href="#"><img class="shirt-gallery" src="../img/shirt-cover.jpg" alt="shirt-cover"></a></td>
+                          <td><a href="#"><img class="shirt-gallery" src="../img/shirt-cover.jpg" alt="shirt-cover"></a></td>
+                        </tr>
+                      </table>
+                    -->
+
+
+              </div>
+
+          </div>
+
+          <div class="main-footer">
+            <div class="footer-content">
+              <footer class="footer-info">
+                <p>&copy ELEVATE 2017</p>
+                <p>Designed by Scott</p>
+              </footer>
+            </div>
+          </div>
+        </div>
+    </div>
+  </body>
+</html>
