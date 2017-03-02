@@ -22,7 +22,7 @@
             <ul>
               <li class="about-us-tag"><a href="../about-us/about-us.html">About Us </a></li>
               <li class="contact-us-tag"><a href="../contact-us/contact-us.html">Contact Us</a></li>
-              <li class="login-tag"><a href="#">Login</a></li>
+              <li class="login-tag"><a href="../login/login.html">Login</a></li>
             </ul>
           </aside>
         </div>
@@ -75,38 +75,36 @@
           </div>
 
           <script>
-        function login() {
+              function login() {
 
 
-            let username = document.getElementById('username').value;
-            let password = document.getElementById('password').value;
-            let errorContainer = document.getElementById('error-container');
-            let errorText = document.getElementById('error-text');
+                  let username = document.getElementById('username').value;
+                  let password = document.getElementById('password').value;
+                  let errorContainer = document.getElementById('error-container');
+                  let errorText = document.getElementById('error-text');
 
-            if(username == 'evelate' && password == 'evelate') {
-                location.href = '../index.html';
-            } else {
-                errorContainer.style.display = 'block';
-                errorText.style.display = 'block';
-                errorText.innerHTML = 'Try again.';
+                  if(username == 'evelate' && password == 'evelate') {
+                      location.href = '../index.html';
+                  } else {
+                      alert("The username or password is incorrect.");
 
-               let handle = setInterval(() => {
-                    errorContainer.style.display = 'none';
-                    clearInterval(handle);
-                },2000);
-            }
+                     let handle = setInterval(() => {
+                          errorContainer.style.display = 'none';
+                          clearInterval(handle);
+                      },2000);
+                  }
 
-            //alert(password);
-        }
+                  //alert(password);
+              }
 
-          document.getElementById("username")
-          document.getElementById("password")
-          .addEventListener("keyup", function(event) {
-          event.preventDefault();
-          if (event.keyCode == 13) {
-          document.getElementById("btn-login").click();
-    }
-});
+                document.getElementById("username")
+                document.getElementById("password")
+                .addEventListener("keyup", function(event) {
+                event.preventDefault();
+                if (event.keyCode == 13) {
+                document.getElementById("btn-login").click();
+          }
+      });
 
 
 
