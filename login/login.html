@@ -1,93 +1,6 @@
 <!DOCTYPE html>
 <html>
 <style media="screen">
-<<<<<<< HEAD
-=======
-      div.main-content {
-        height: 600px;
-        width: 100%;
-      }
-      div.main-header-login {
-        margin-top: 40px;
-      }
-      aside.login-forum-breadcrumb {
-        width: 100%;
-      }
-      aside.login-forum-breadcrumb ul {
-        list-style: none;
-      }
-      aside.login-forum-breadcrumb li {
-        float: left;
-      }
-      aside.login-forum-breadcrumb li a {
-        margin-top: 5px;
-      }
-      li.home-tag a {
-        color: gray;
-        font-style: italic;
-        text-decoration: underline;
-      }
-
-      li.account-tag a {
-        margin-left: 8px;
-        font-size: 15px;
-        text-transform: uppercase;
-        text-decoration: none;
-        color: black;
-      }
-      div.main-header-login h1 {
-        font-size: 40px;
-        font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
-      }
-      div.main-header-login h2 {
-        margin-top: 35px;
-        font-size: 30px;
-        font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
-      }
-      section.login-forum {
-        height: 200px;
-        width: 100%;
-        margin-top: 30px;
-      }
-      label.username-label {
-        display: block;
-        font-size: 20px;
-        font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
-      }
-      input.username-textbox {
-        width: 70%;
-        height: 50px;
-        font-size: 20px;
-        background-color: #f2f2f2;
-        border: none;
-      }
-      label.password-label {
-        display: block;
-        font-size: 20px;
-        font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
-      }
-      input.password-textbox {
-        width: 70%;
-        height: 50px;
-        font-size: 20px;
-        background-color: #f2f2f2;
-        border: none;
-        margin-bottom: 30px;
-      }
-      button.login-button {
-        padding: 15px 30px;
-        font-size: 20px;
-        border: solid 2px;
-        background-color: white;
-        transition-duration: 0.4s;
-        cursor: pointer;
-        font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
-      }
-      button.login-button:hover {
-        background-color: #A9A9A9;
-        color:black;
-      }
->>>>>>> origin/master
 
 </style>
   <head>
@@ -96,10 +9,6 @@
     <link rel="stylesheet" type="text/css" href="../css/main.css">
   </head>
   <body>
-<<<<<<< HEAD
-    <link rel="stylesheet" type="text/css" href="../css/main.css">
-=======
->>>>>>> origin/master
     <div class="container">
         <div class="main-header">
           <img src="../img/store-logo.png" alt="store-logo">
@@ -110,14 +19,9 @@
           </div>
           <aside class="about-us-header">
             <ul>
-<<<<<<< HEAD
               <li class="about-us-tag"><a href="../about-us/about-us.html">About Us </a></li>
               <li class="contact-us-tag"><a href="../contact-us/contact-us.html">Contact Us</a></li>
               <li class="login-tag"><a href="../login/login.html">Login</a></li>
-=======
-              <li class="about-us-tag"><a href="#">About Us </a></li>
-              <li class="login-tag"><a href="#">Login</a></li>
->>>>>>> origin/master
             </ul>
           </aside>
         </div>
@@ -158,77 +62,33 @@
 
               </div>
             </div>
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/master
             <div class="main-footer">
               <div class="footer-content">
                 <footer class="footer-info">
                   <p>&copy ELEVATE 2017</p>
-                  <p>Designed by Scott</p>
+                  <p>Designed by Scott & Ronnie</p>
                 </footer>
               </div>
             </div>
           </div>
 
           <script>
-<<<<<<< HEAD
-              function login() {
-
-
-                  let username = document.getElementById('username').value;
-                  let password = document.getElementById('password').value;
-                  let errorContainer = document.getElementById('error-container');
-                  let errorText = document.getElementById('error-text');
-
-                  if(username == 'evelate' && password == 'evelate') {
-                      location.href = '../index.html';
-                  } else {
-                      alert("The username or password is incorrect.");
-
-                     let handle = setInterval(() => {
-                          errorContainer.style.display = 'none';
-                          clearInterval(handle);
-                      },2000);
-                  }
-
-                  //alert(password);
-              }
-
-                document.getElementById("username")
-                document.getElementById("password")
-                .addEventListener("keyup", function(event) {
-                event.preventDefault();
-                if (event.keyCode == 13) {
-                document.getElementById("btn-login").click();
-          }
-      });
-=======
         function login() {
-
-
             let username = document.getElementById('username').value;
             let password = document.getElementById('password').value;
             let errorContainer = document.getElementById('error-container');
             let errorText = document.getElementById('error-text');
-
             if(username == 'evelate' && password == 'evelate') {
                 location.href = '../index.html';
             } else {
-                errorContainer.style.display = 'block';
-                errorText.style.display = 'block';
-                errorText.innerHTML = 'Try again.';
-
+                alert("The username and password is incorrect.");
                let handle = setInterval(() => {
                     errorContainer.style.display = 'none';
                     clearInterval(handle);
                 },2000);
             }
-
             //alert(password);
         }
-
           document.getElementById("username")
           document.getElementById("password")
           .addEventListener("keyup", function(event) {
@@ -237,10 +97,6 @@
           document.getElementById("btn-login").click();
     }
 });
->>>>>>> origin/master
-
-
-
     </script>
 
   </body>
