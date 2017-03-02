@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <style media="screen">
+<<<<<<< HEAD
+=======
       div.main-content {
         height: 600px;
         width: 100%;
@@ -85,6 +87,7 @@
         background-color: #A9A9A9;
         color:black;
       }
+>>>>>>> origin/master
 
 </style>
   <head>
@@ -93,6 +96,10 @@
     <link rel="stylesheet" type="text/css" href="../css/main.css">
   </head>
   <body>
+<<<<<<< HEAD
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+=======
+>>>>>>> origin/master
     <div class="container">
         <div class="main-header">
           <img src="../img/store-logo.png" alt="store-logo">
@@ -103,8 +110,14 @@
           </div>
           <aside class="about-us-header">
             <ul>
+<<<<<<< HEAD
+              <li class="about-us-tag"><a href="../about-us/about-us.html">About Us </a></li>
+              <li class="contact-us-tag"><a href="../contact-us/contact-us.html">Contact Us</a></li>
+              <li class="login-tag"><a href="../login/login.html">Login</a></li>
+=======
               <li class="about-us-tag"><a href="#">About Us </a></li>
               <li class="login-tag"><a href="#">Login</a></li>
+>>>>>>> origin/master
             </ul>
           </aside>
         </div>
@@ -145,6 +158,10 @@
 
               </div>
             </div>
+<<<<<<< HEAD
+
+=======
+>>>>>>> origin/master
             <div class="main-footer">
               <div class="footer-content">
                 <footer class="footer-info">
@@ -156,6 +173,38 @@
           </div>
 
           <script>
+<<<<<<< HEAD
+              function login() {
+
+
+                  let username = document.getElementById('username').value;
+                  let password = document.getElementById('password').value;
+                  let errorContainer = document.getElementById('error-container');
+                  let errorText = document.getElementById('error-text');
+
+                  if(username == 'evelate' && password == 'evelate') {
+                      location.href = '../index.html';
+                  } else {
+                      alert("The username or password is incorrect.");
+
+                     let handle = setInterval(() => {
+                          errorContainer.style.display = 'none';
+                          clearInterval(handle);
+                      },2000);
+                  }
+
+                  //alert(password);
+              }
+
+                document.getElementById("username")
+                document.getElementById("password")
+                .addEventListener("keyup", function(event) {
+                event.preventDefault();
+                if (event.keyCode == 13) {
+                document.getElementById("btn-login").click();
+          }
+      });
+=======
         function login() {
 
 
@@ -188,6 +237,7 @@
           document.getElementById("btn-login").click();
     }
 });
+>>>>>>> origin/master
 
 
 
