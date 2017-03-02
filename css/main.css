@@ -42,11 +42,7 @@ header.header-info a {
 }
 aside.about-us-header {
   height: 50px;
-<<<<<<< HEAD
-  width: 23%;
-=======
   width: 15%;
->>>>>>> origin/master
   float: right;
   margin-top: 4%;
 }
@@ -128,13 +124,8 @@ aside.bottom-left h1 {
   margin-top: 50px;
 }
 div.bottom-middle {
-<<<<<<< HEAD
-  width: 27%;
-  height: 100%;
-=======
   width: 29%;
   height: 68%;
->>>>>>> origin/master
   left: 37.4%;
   position: absolute;
 }
@@ -160,13 +151,8 @@ div.bottom-middle h1 {
   font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
 }
 div.bottom-middle img {
-<<<<<<< HEAD
-  height: 65%;
-  width: 100%;
-=======
   height: 96%;
   width: 90%;
->>>>>>> origin/master
   border-radius: 20px;
 }
 aside.bottom-right h1 {
@@ -197,104 +183,3 @@ footer.footer-info p {
   font-size: 18px;
   font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
 }
-
-<<<<<<< HEAD
-}
-
-div.main-content {
-  height: 600px;
-  width: 100%;
-}
-div.main-header-login {
-  margin-top: 40px;
-}
-=======
-/*BREAD CRUMB*/
->>>>>>> origin/master
-aside.login-forum-breadcrumb {
-  width: 100%;
-}
-aside.login-forum-breadcrumb ul {
-  list-style: none;
-}
-aside.login-forum-breadcrumb li {
-  float: left;
-}
-aside.login-forum-breadcrumb li a {
-  margin-top: 5px;
-}
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
-li.home-tag a {
-  color: gray;
-  font-style: italic;
-  text-decoration: underline;
-}
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
-li.account-tag a {
-  margin-left: 8px;
-  font-size: 15px;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: black;
-}
-<<<<<<< HEAD
-div.main-header-login h1 {
-  font-size: 40px;
-  font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
-}
-div.main-header-login h2 {
-  margin-top: 35px;
-  font-size: 30px;
-  font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
-}
-section.login-forum {
-  height: 300px;
-  width: 100%;
-  margin-top: 30px;
-}
-label.username-label {
-  display: block;
-  font-size: 20px;
-  font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
-}
-input.username-textbox {
-  width: 70%;
-  height: 50px;
-  font-size: 20px;
-  background-color: #f2f2f2;
-  border: none;
-}
-label.password-label {
-  display: block;
-  font-size: 20px;
-  font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
-}
-input.password-textbox {
-  width: 70%;
-  height: 50px;
-  font-size: 20px;
-  background-color: #f2f2f2;
-  border: none;
-  margin-bottom: 30px;
-}
-button.login-button {
-  padding: 15px 30px;
-  font-size: 20px;
-  border: solid 2px;
-  background-color: white;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
-}
-button.login-button:hover {
-  background-color: #A9A9A9;
-  color:black;
-}
-=======
->>>>>>> origin/master
