@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<style media="screen">
+
+</style>
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+  </head>
+  <body>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <div class="container">
+        <div class="main-header">
+          <img src="../img/store-logo.png" alt="store-logo">
+          <div class="header-content">
+            <header class="header-info">
+              <h1><a href="../index.html">Elevate</a></h1>
+            </header>
+          </div>
+          <aside class="about-us-header">
+            <ul>
+              <li class="about-us-tag"><a href="../about-us/about-us.html">About Us </a></li>
+              <li class="contact-us-tag"><a href="../contact-us/contact-us.html">Contact Us</a></li>
+              <li class="login-tag"><a href="../login/login.html">Login</a></li>
+            </ul>
+          </aside>
+        </div>
+          <div class="main-navigation">
+            <div class="navigation-tool-bar">
+              <ul>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Shirts</a></li>
+                <li><a href="#">Suits</a></li>
+                <li><a href="#">Shoes</a></li>
+              </ul>
+            </div>
+          </div>
+          <aside class="login-forum-breadcrumb">
+            <ul>
+              <li class="home-tag"><a href="../index.html">Home / </a></li>
+              <li class="account-tag"><a href="#"> My Account </a></li>
+            </ul>
+          </aside>
+          <div class="main-content">
+            <div class="main-header-login">
+              <h1>My Account</h1>
+              <h2>Login</h2>
+
+              <section class="login-forum">
+                <div class="login-forum-username">
+                  <label class="username-label" for="username">Username or email address:</label>
+                  <input class="username-textbox" type="login-input" type="text" id="username" maxlength="100">
+                <div class="login-forum-password">
+                  <label class = "password-label" for="password">Password:</label>
+                  <input class = "password-textbox" type="password" type="password" id="password" maxlength="30">
+                </div>
+                <div class="login-forum-button">
+                  <button onclick= "login()" id="btn-login" class="login-button">Login</button>
+                </div>
+
+              </section>
+
+              </div>
+            </div>
+
+            <div class="main-footer">
+              <div class="footer-content">
+                <footer class="footer-info">
+                  <p>&copy ELEVATE 2017</p>
+                  <p>Designed by Scott</p>
+                </footer>
+              </div>
+            </div>
+          </div>
+
+          <script>
+              function login() {
+
+
+                  let username = document.getElementById('username').value;
+                  let password = document.getElementById('password').value;
+                  let errorContainer = document.getElementById('error-container');
+                  let errorText = document.getElementById('error-text');
+
+                  if(username == 'evelate' && password == 'evelate') {
+                      location.href = '../index.html';
+                  } else {
+                      alert("The username or password is incorrect.");
+
+                     let handle = setInterval(() => {
+                          errorContainer.style.display = 'none';
+                          clearInterval(handle);
+                      },2000);
+                  }
+
+                  //alert(password);
+              }
+
+                document.getElementById("username")
+                document.getElementById("password")
+                .addEventListener("keyup", function(event) {
+                event.preventDefault();
+                if (event.keyCode == 13) {
+                document.getElementById("btn-login").click();
+          }
+      });
+
+
+
+    </script>
+
+  </body>
+</html>

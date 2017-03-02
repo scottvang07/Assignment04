@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<style media="screen">
+    div.contact-us-container {
+      height: 600px;
+      width: 100%;
+      margin-bottom: 30px;
+      position: relative;
+    }
+    div.contact-us-container h1 {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+    }
+    input, label {
+      display: block;
+    }
+    div.first-name-forum {
+      height: 100px;
+      width: 450px;
+    }
+    label.first-name-tag {
+      font-size: 20px;
+      font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+    }
+    input.first-name-textbox {
+      height: 50px;
+      width: 100%;
+      font-size: 20px;
+      border: none;
+      background-color: #f2f2f2;
+    }
+    div.last-name-forum {
+      position: absolute;
+      left: 49%;
+      top: 11.4%;
+      height: 100px;
+      width: 450px;
+    }
+    label.last-name-tag {
+      font-size: 20px;
+      font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+    }
+    input.last-name-textbox {
+      height: 50px;
+      width: 100%;
+      font-size: 20px;
+      border: none;
+      background-color: #f2f2f2;
+    }
+    div.email-forum {
+      margin-top: 30px;
+      height: 100px;
+      width: 86.5%;
+    }
+    label.email-tag {
+      font-size: 20px;
+      font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+    }
+    input.email-textbox {
+      height: 50px;
+      width: 100%;
+      font-size: 20px;
+      border: none;
+      background-color: #f2f2f2;
+    }
+    div.message-forum {
+      margin-top: 30px;
+      height: 150px;
+      width: 86.5%;
+    }
+    label.message-tag {
+      font-size: 20px;
+      font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+    }
+    div.message-forum textarea {
+      height: 100px;
+      width: 100%;
+      font-size: 20px;
+      border: none;
+      background-color: #f2f2f2;
+      resize: none;
+    }
+    div.submit {
+      height: 70px;
+      width: 100px;
+      margin-top: 15px;
+    }
+    button.submit-button {
+      padding: 15px 30px;
+      border: solid 2px;
+      background-color: white;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      font-size: 20px;
+      font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+    }
+    button.submit-button:hover {
+      background-color: #A9A9A9;
+      color:black;
+    }
+
+</style>
+
+  <head>
+    <title>ELEVATE</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+  </head>
+
+  <body>
+    <div class="container">
+        <div class="main-header">
+          <img src="../img/store-logo.png" alt="store-logo">
+          <div class="header-content">
+            <header class="header-info">
+              <h1><a href="../index.html">Elevate</a></h1>
+            </header>
+          </div>
+          <aside class="about-us-header">
+            <ul>
+              <li class="about-us-tag"><a href="../about-us/about-us.html">About Us </a></li>
+              <li class="contact-us-tag"><a href="../contact-us/contact-us.html">Contact Us</a></li>
+              <li class="login-tag"><a href="../login/login.html">Login</a></li>
+            </ul>
+          </aside>
+        </div>
+          <div class="main-navigation">
+            <div class="navigation-tool-bar">
+              <ul>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Shirts</a></li>
+                <li><a href="#">Suits</a></li>
+                <li><a href="#">Shoes</a></li>
+              </ul>
+            </div>
+          </div>
+          <aside class="login-forum-breadcrumb">
+            <ul>
+              <li class="home-tag"><a href="../index.html">Home / </a></li>
+              <li class="account-tag"><a href="#"> Contact Us </a></li>
+            </ul>
+          </aside>
+          <div class="contact-us-container">
+            <h1>Have a question?</h1>
+                <div class="first-name-forum">
+                  <label class="first-name-tag" for=firstname"">First Name:</label>
+                  <input class="first-name-textbox" type="first-name-input">
+                </div>
+                <div class="last-name-forum">
+                  <label class="last-name-tag" for="lastname">Last Name:</label>
+                  <input class="last-name-textbox" type="last-name-input">
+                </div>
+                <div class="email-forum">
+                  <label class="email-tag" for="email">Email:</label>
+                  <input class="email-textbox" type="text" name="email-input">
+                </div>
+                <div class="message-forum">
+                  <label class="message-tag" for="message">Message:</label>
+                  <textarea name="message-box" rows="8" cols="80"></textarea>
+                </div>
+                <div class="submit">
+                  <button onclick="submit()" class="submit-button" type="button" name="submit">Submit</button>
+                </div>
+          </div>
+
+          <div class="main-footer">
+            <div class="footer-content">
+              <footer class="footer-info">
+                <p>&copy ELEVATE 2017</p>
+                <p>Designed by Scott</p>
+              </footer>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript">
+        function submit() {
+          location.href='../index.html'
+        }
+
+        </script>
+  </body>
+</html>
