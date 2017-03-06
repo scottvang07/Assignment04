@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<style media="screen">
+
+
+    /*shirt container*/
+    .product-container{
+        width: 100%;
+        height: 800px;
+        position: relative;
+
+    }
+
+    /*menu*/
+    .product-sidebar-link{
+        /*background-color: green;*/
+        height: 100%;
+        width: 20%;
+        position: absolute;
+    }
+    div.product-sidebar-link ul {
+        list-style-type:none;
+        text-align: center;
+    }
+    div.product-sidebar-link li {
+        margin: 10px;
+        width: 90%;
+    }
+    div.product-sidebar-link a {
+        text-decoration:none;
+        padding:10px 15px;
+        border: 1px solid black;
+        display:block;
+    }
+
+    .shirt{
+        background-color: black;
+        max-height: 988px;
+        width: 80%;
+        float:right;
+        margin-left: 100px;
+    }
+
+
+    table.table-grid td img{
+        width: 20%;
+        height: 20%;
+    }
+
+/*grid view code*/
+div.shirt {
+    position:absolute;
+    left:15%;
+    float:right;
+}
+    table.table-grid tr {
+        background-color:white;
+        text-align: center;
+    }
+    td.table-image {
+        width: 20%
+    }
+    td.table-info{
+        width: 20%;
+    }
+    th.table-info{
+        width: 20%;
+    }
+    td.table-image img{
+        width: 80%;
+        height: 12%;
+        padding: 1%;
+    }
+</style>
+
+<head>
+    <title>ELEVATE</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+</head>
+
+<body>
+<div class="container">
+    <div class="main-header">
+        <img src="../img/store-logo.png" alt="store-logo">
+        <div class="header-content">
+            <header class="header-info">
+                <h1><a href="../index.html">Elevate</a></h1>
+            </header>
+        </div>
+        <aside class="about-us-header">
+            <ul>
+                <li class="about-us-tag"><a href="../about-us/about-us.html">About Us </a></li>
+                <li class="login-tag"><a href="../login/login.html">Login</a></li>
+            </ul>
+        </aside>
+    </div>
+    <div class="main-navigation">
+        <div class="navigation-tool-bar">
+            <ul>
+                <li><a href="#">Shop</a></li>
+                <li><a href="../shirts/shirts.html">Shirts</a></li>
+                <li><a href="#">Suits</a></li>
+                <li><a href="#">Shoes</a></li>
+            </ul>
+        </div>
+    </div>
+    <aside class="login-forum-breadcrumb">
+        <ul>
+            <li class="home-tag"><a href="../index.html">Home / </a></li>
+            <li class="account-tag"><a href="../grid-view/grid-view.html"> Shirt Grid View </a></li>
+
+        </ul>
+
+    </aside>
+    <div class="product-container">
+
+        <div class="product-sidebar-link">
+            <ul>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Shirts</a></li>
+                <li><a href="#">Suits</a></li>
+                <li><a href="#">Shoes</a></li>
+
+            </ul>
+        </div>
+        <div class="shirt">
+                <table class="table-grid">
+                    <tr>
+                        <th class="table-info">PRODUCT</th>
+                        <th class="table-info">NAME</th>
+                        <th class="table-info">PRODUCT NUMBER</th>
+                        <th class="table-info">PRICE</th>
+                        <th class="table-info">DESCRIPTION</th>
+
+                    </tr>
+                    <tr>
+                        <td class="table-image"><img src="../img/shirt1.jpeg" alt="shirt1"></td>
+                        <td class="table-info">ELEVATE Dress Shirt</td>
+                        <td class="table-info">#345234</td>
+                        <td class="table-info">$39</td>
+                        <td class="table-info">100% Cotton Satin Windowpane Spread Collar Dress Shirt</td>
+
+                    </tr>
+                    <tr>
+                        <td class=table-image"><img src="../img/shirt2.jpeg" alt="shirt2"></td>
+                        <td class="table-info">ELEVATE Dress Shirt</td>
+                        <td class="table-info">#246358</td>
+                        <td class="table-info">$39</td>
+                        <td class="table-info">100% Cotton Glen Plaid Spread Collar French Cuff Dress Shirt</td>
+
+                    </tr>
+                    <tr>
+                        <td class="table-image"><img src="../img/shirt3.jpeg" alt="shirt3"></td>
+                        <td class="table-info">ELEVATE Dress Shirt</td>
+                        <td class="table-info">#785345</td>
+                        <td class="table-info">$39</td>
+                        <td class="table-info">Non-Iron 100% Cotton Plaid Button Down Collar Sport Shirt</td>
+
+                    </tr>
+                    <tr>
+                        <td class="table-image"><img src="../img/shirt4.jpeg" alt="shirt4"></td>
+                        <td class="table-info">ELEVATE Dress Shirt</td>
+                        <td class="table-info">#463675</td>
+                        <td class="table-info">$49</td>
+                        <td class="table-info">Non-Iron 100% Cotton Plaid Button Down Collar Sport Shirt</td>
+                    </tr>
+                    <tr>
+                        <td class="table-image"><img src="../img/shirt5.jpeg" alt="shirt4"></td>
+                        <td class="table-info">ELEVATE Dress Shirt</td>
+                        <td class="table-info">#463675</td>
+                        <td class="table-info">$49</td>
+                        <td class="table-info">Non-Iron 100% Cotton Plaid Button Down Collar Sport Shirt</td>
+                    </tr>
+                    <tr>
+                        <td class="table-image"><img src="../img/shirt6.jpeg" alt="shirt4"></td>
+                        <td class="table-info">ELEVATE Dress Shirt</td>
+                        <td class="table-info">#463675</td>
+                        <td class="table-info">$49</td>
+                        <td class="table-info">Non-Iron 100% Cotton Plaid Button Down Collar Sport Shirt</td>
+                    </tr>
+                    <tr>
+                        <td class="table-image"><img src="../img/shirt7.jpeg" alt="shirt4"></td>
+                        <td class="table-info">ELEVATE Dress Shirt</td>
+                        <td class="table-info">#463675</td>
+                        <td class="table-info">$49</td>
+                        <td class="table-info">Non-Iron 100% Cotton Plaid Button Down Collar Sport Shirt</td>
+                    </tr>
+                    <tr>
+                        <td class="table-image"><img src="../img/shirt8.jpeg" alt="shirt4"></td>
+                        <td class="table-info">ELEVATE Dress Shirt</td>
+                        <td class="table-info">#463675</td>
+                        <td class="table-info">$49</td>
+                        <td class="table-info">Non-Iron 100% Cotton Plaid Button Down Collar Sport Shirt</td>
+                    </tr>
+                    <tr>
+                        <td class="table-image"><img src="../img/shirt9.jpeg" alt="shirt4"></td>
+                        <td class="table-info">ELEVATE Dress Shirt</td>
+                        <td class="table-info">#463675</td>
+                        <td class="table-info">$49</td>
+                        <td class="table-info">Non-Iron 100% Cotton Plaid Button Down Collar Sport Shirt</td>
+                    </tr>
+                    <tr>
+                        <td class="table-image"><img src="../img/shirt10.jpeg" alt="shirt4"></td>
+                        <td class="table-info">ELEVATE Dress Shirt</td>
+                        <td class="table-info">#463675</td>
+                        <td class="table-info">$49</td>
+                        <td class="table-info">Non-Iron 100% Cotton Plaid Button Down Collar Sport Shirt</td>
+                    </tr>
+                    <tr>
+                        <td class="table-image"><img src="../img/shirt11.jpeg" alt="shirt4"></td>
+                        <td class="table-info">ELEVATE Dress Shirt</td>
+                        <td class="table-info">#463675</td>
+                        <td class="table-info">$49</td>
+                        <td class="table-info">Non-Iron 100% Cotton Plaid Button Down Collar Sport Shirt</td>
+                    </tr>
+                    <tr>
+                        <td class="table-image"><img src="../img/shirt12.jpeg" alt="shirt4"></td>
+                        <td class="table-info">ELEVATE Dress Shirt</td>
+                        <td class="table-info">#463675</td>
+                        <td class="table-info">$49</td>
+                        <td class="table-info">Non-Iron 100% Cotton Plaid Button Down Collar Sport Shirt</td>
+                    </tr>
+                </table>
+
+        </div>
+
+    </div>
+
+    <div class="main-footer">
+        <div class="footer-content">
+            <footer class="footer-info">
+                <p>&copy ELEVATE 2017</p>
+                <p>Designed by Scott</p>
+            </footer>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
