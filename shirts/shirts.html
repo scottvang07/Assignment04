@@ -57,10 +57,21 @@ div.shirt-gallery ul{
   div.shirt-gallery li h4{
     /*margin-left: 15%;*/
     text-align: center;
+    
   }
     div.shirt-gallery li p{
       /*margin-left: 15%;*/
       text-align: center;
+      display: none;
+    }
+    .shirt-info:hover p {
+      display: block;
+      width: 200px;
+      text-align: center;
+      margin-left: 38px;
+    }
+    img:hover {
+      opacity: 0.5;
     }
     .grid-view{
       background-repeat: no-repeat;
@@ -73,6 +84,7 @@ div.shirt-gallery ul{
     height: 33px;
     display: block;
   }
+  
 
 </style>
 
@@ -93,6 +105,7 @@ div.shirt-gallery ul{
           <aside class="about-us-header">
             <ul>
               <li class="about-us-tag"><a href="../about-us/about-us.html">About Us </a></li>
+              <li class="contact-us-tag"><a href="../contact-us/contact-us.html">Contact Us</a></li>
               <li class="login-tag"><a href="../login/login.html">Login</a></li>
             </ul>
           </aside>
@@ -100,7 +113,7 @@ div.shirt-gallery ul{
           <div class="main-navigation">
             <div class="navigation-tool-bar">
               <ul>
-                <li><a href="#">Shop</a></li>
+                <li><a href="../index.html">Shop</a></li>
                 <li><a href="../shirts/shirts.html">Shirts</a></li>
                 <li><a href="#">Suits</a></li>
                 <li><a href="#">Shoes</a></li>
@@ -131,7 +144,7 @@ div.shirt-gallery ul{
               <div class="shirt">
                 <div class="shirt-gallery">
                   <ul>
-                    <li class="shirt-info"><a href="#"><img src="../img/shirt1.jpeg" alt="shirt-cover"></a><h4>ELEVATE Dress Shirt</h4> <p>$39</p><p>100% Cotton Satin Windowpane Spread Collar Dress Shirt</p></li>
+                    <li class="shirt-info"><a href="#"><img class ="img-hover" src="../img/shirt1.jpeg" alt="shirt-cover"></a><h4>ELEVATE Dress Shirt</h4> <p class ="hidden-p">$39</p><p>100% Cotton Satin Windowpane Spread Collar Dress Shirt</p></li>
                     <li class="shirt-info"><a href="#"><img src="../img/shirt2.jpeg" alt="shirt-cover"></a><h4>ELEVATE Dress Shirt</h4> <p>$39</p><p>100% Cotton Glen Plaid Spread Collar French Cuff Dress Shirt</p></li>
                     <li class="shirt-info"><a href="#"><img src="../img/shirt3.jpeg" alt="shirt-cover"></a><h4>ELEVATE Dress Shirt</h4> <p>$39</p><p>Non-Iron 100% Cotton Plaid Button Down Collar Sport Shirt</p></li>
                   </ul>
