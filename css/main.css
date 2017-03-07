@@ -124,9 +124,9 @@ aside.bottom-left h1 {
   margin-top: 50px;
 }
 div.bottom-middle {
-  width: 29%;
-  height: 68%;
-  left: 37.4%;
+  width: 20%;
+  height: 720px;
+  left: 40%;
   position: absolute;
 }
 aside.bottom-right {
@@ -151,8 +151,8 @@ div.bottom-middle h1 {
   font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
 }
 div.bottom-middle img {
-  height: 96%;
-  width: 90%;
+  height: 60%;
+  width: 100%;
   border-radius: 20px;
 }
 aside.bottom-right h1 {
@@ -184,6 +184,7 @@ footer.footer-info p {
   font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
 }
 
+/*login-page*/
 div.main-content {
   height: 500px;
   width: 100%;
