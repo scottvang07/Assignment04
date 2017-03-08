@@ -80,17 +80,22 @@ div.shirt-gallery ul{
     img:hover {
       opacity: 0.5;
     }
-    .grid-view{
-      background-repeat: no-repeat;
-      width: 37px;
-      height: 33px;
+    button.grid-view{
+      width: 30px;
+      height: 25px;
       float: right;
+      border: none;
+      background-color: #FFF;
     }
-  .grid-view img {
-    width: 33px;
-    height: 33px;
+    button.grid-view img {
+    width: 30px;
+    height: 20px;
     display: block;
-  }
+    }
+    button.grid-view img:hover {
+      opacity: 0.5;
+      cursor: pointer;
+    }
 
 </style>
 
@@ -132,8 +137,10 @@ div.shirt-gallery ul{
               <li class="account-tag"><a href="../shirts/shirts.html"> Shirts </a></li>
 
             </ul>
-            <div><a href="../grid-view/grid-view.html"><button class="grid-view"><img src="../img/grid.PNG">
-            </button></a></div>
+            <div>
+              <a href="../grid-view/grid-view.html"><button class="grid-view"><img src="../img/grid.PNG">
+              </button></a>
+          </div>
 
           </aside>
           <div class="product-container">

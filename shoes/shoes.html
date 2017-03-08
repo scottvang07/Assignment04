@@ -6,17 +6,14 @@
 /*shirt container*/
 .product-container{
   width: 100%;
-  height: 700px;
+  height: 1000px;
   position: relative;
-
 }
-
 
 /*menu*/
 .product-sidebar-link{
   height: 100%;
   width: 20%;
-  margin-top: 15px;
   position: absolute;
   }
 div.product-sidebar-link ul {
@@ -46,6 +43,62 @@ div.product-sidebar-link a:hover {
       width: 80%;
       height: 600px;
       float: right;
+  }
+  .shoes{
+    height: 750px;
+    width: 80%;
+    float:right;
+  }
+
+.shoes-gallery img{
+width: 60%;
+height: 70%;
+margin-left: 18%;
+}
+div.shoes-gallery ul{
+list-style: none;
+height: 320px;
+}
+div.shoes-gallery li{
+display: table-cell;
+padding: 10px;
+}
+div.shoes-gallery li h4{
+  /*margin-left: 15%;*/
+  text-align: center;
+  font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+
+}
+  div.shoes-gallery li p{
+    /*margin-left: 15%;*/
+    text-align: center;
+    display: none;
+  }
+  .shoes-info:hover p {
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-left: 38px;
+    font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+  }
+  img:hover {
+    opacity: 0.5;
+  }
+  button.grid-view{
+    width: 30px;
+    height: 25px;
+    float: right;
+    border: none;
+    background-color: #FFF;
+  }
+  button.grid-view img {
+  width: 30px;
+  height: 20px;
+  display: block;
+  }
+  button.grid-view img:hover {
+    opacity: 0.5;
+    cursor: pointer;
   }
 
 </style>
@@ -86,8 +139,11 @@ div.product-sidebar-link a:hover {
             <ul>
               <li class="home-tag"><a href="../index.html">Home / </a></li>
               <li class="account-tag"><a href="../shirts/shirts.html"> Shoes </a></li>
-
             </ul>
+            <div>
+              <a href="../shoes-grid-view/shoes-grid-view.html"><button class="grid-view"><img src="../img/grid.PNG">
+              </button></a>
+          </div>
           </aside>
           <div class="product-container">
 
@@ -101,18 +157,27 @@ div.product-sidebar-link a:hover {
 
               </ul>
             </div>
-              <div class="shoes-container">
-                  <img src="../img/under-construction.PNG" alt="Under Construction">
+            <div class="shoes">
+              <div class="shoes-gallery">
+                <ul>
+                  <li class="shoes-info"><a href="#"><img src="../img/shoes1.jpg" alt="shirt-cover"></a><h4>ELEVATE Dress Shoes</h4> <p>$79</p><p>Classic wingtips, a leather sole, and a lightly cushioned insole for all-day comfort.</p></li>
+                  <li class="shoes-info"><a href="#"><img src="../img/shoes2.jpg" alt="shirt-cover"></a><h4>ELEVATE Dress Shoes</h4> <p>$79</p><p>Plain smooth toe, fine stitching, and all-leather construction, lightly padded insole for all-day comfort.</p></li>
+                  <li class="shoes-info"><a href="#"><img src="../img/shoes3.jpg" alt="shirt-cover"></a><h4>ELEVATE Dress Shoes</h4> <p>$79</p><p>Soft, rich, genuine leather, a lightly cushioned interior and combination leather and rubber outsole.</p></li>
+                </ul>
+                <ul>
+                  <li class="shoes-info"><a href="#"><img src="../img/shoes4.jpg" alt="shirt-cover"></a><h4>ELEVATE Dress Shoes</h4> <p>$89</p><p>Plain smooth toe, fine stitching, and all-leather construction, lightly padded insole for all-day comfort.</p></li>
+                  <li class="shoes-info"><a href="#"><img src="../img/shoes5.jpg" alt="shirt-cover"></a><h4>ELEVATE Dress Shoes</h4> <p>$89</p><p>Soft, rich, genuine leather, a lightly cushioned interior and combination leather and rubber outsole.</p></li>
+                  <li class="shoes-info"><a href="#"><img src="../img/shoes6.jpg" alt="shirt-cover"></a><h4>ELEVATE Dress Shoes</h4><p>$89</p><p>Classic wingtips, a leather sole, and a lightly cushioned insole for all-day comfort.</p></li>
+                </ul>
               </div>
           </div>
-
-          <div class="main-footer">
-            <div class="footer-content">
-              <footer class="footer-info">
-                <p>&copy ELEVATE 2017</p>
-                <p>Designed by Scott & Ronnie</p>
-              </footer>
-            </div>
+        </div>
+        <div class="main-footer">
+          <div class="footer-content">
+            <footer class="footer-info">
+              <p>&copy ELEVATE 2017</p>
+              <p>Designed by Scott & Ronnie</p>
+            </footer>
           </div>
         </div>
   </body>
